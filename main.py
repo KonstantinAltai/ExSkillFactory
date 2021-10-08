@@ -8,7 +8,7 @@ WIN = False
 
 
 # ф-ия вывода на экран игрового поля
-KOdef board():
+def board():
     print('  0 1 2 ')
     for i in range(3):
         print(i, Field[3 * i], Field[3 * i + 1], Field[3 * i + 2])
